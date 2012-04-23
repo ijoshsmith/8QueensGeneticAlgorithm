@@ -1,0 +1,5 @@
+This repo contains the source code for a genetic algorithm written in Objective-C that solves the 8 Queens puzzle.
+
+This program is the subject matter of the following blog post:
+
+http://ijoshsmith.com/2012/04/22/objective-c-genetic-algorithm-that-solves-the-8-queens-puzzle/

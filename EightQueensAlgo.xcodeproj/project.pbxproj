@@ -1,0 +1,257 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		411377DA1534AA880047EC41 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 411377D91534AA880047EC41 /* Foundation.framework */; };
+		411377DD1534AA880047EC41 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 411377DC1534AA880047EC41 /* main.m */; };
+		411377E91534AB330047EC41 /* JAS8QueensAlgorithm.m in Sources */ = {isa = PBXBuildFile; fileRef = 411377E81534AB330047EC41 /* JAS8QueensAlgorithm.m */; };
+		411377EC1534AB770047EC41 /* JAS8QueensChromosome.m in Sources */ = {isa = PBXBuildFile; fileRef = 411377EB1534AB770047EC41 /* JAS8QueensChromosome.m */; };
+		411377EF1534ACEF0047EC41 /* JAS8QueensSolution.m in Sources */ = {isa = PBXBuildFile; fileRef = 411377EE1534ACEF0047EC41 /* JAS8QueensSolution.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		411377D31534AA880047EC41 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		411377D51534AA880047EC41 /* EightQueensAlgo */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = EightQueensAlgo; sourceTree = BUILT_PRODUCTS_DIR; };
+		411377D91534AA880047EC41 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		411377DC1534AA880047EC41 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		411377DF1534AA880047EC41 /* EightQueensAlgo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "EightQueensAlgo-Prefix.pch"; sourceTree = "<group>"; };
+		411377E71534AB330047EC41 /* JAS8QueensAlgorithm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JAS8QueensAlgorithm.h; sourceTree = "<group>"; };
+		411377E81534AB330047EC41 /* JAS8QueensAlgorithm.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JAS8QueensAlgorithm.m; sourceTree = "<group>"; };
+		411377EA1534AB770047EC41 /* JAS8QueensChromosome.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JAS8QueensChromosome.h; sourceTree = "<group>"; };
+		411377EB1534AB770047EC41 /* JAS8QueensChromosome.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JAS8QueensChromosome.m; sourceTree = "<group>"; };
+		411377ED1534ACEF0047EC41 /* JAS8QueensSolution.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JAS8QueensSolution.h; sourceTree = "<group>"; };
+		411377EE1534ACEF0047EC41 /* JAS8QueensSolution.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JAS8QueensSolution.m; sourceTree = "<group>"; };
+		417FB9AE15351DB600337966 /* Globals.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Globals.h; sourceTree = "<group>"; };
+		418E4C04153E8DF800B46FFD /* Distinct Solutions.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "Distinct Solutions.txt"; path = "EightQueensAlgo/Distinct Solutions.txt"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		411377D21534AA880047EC41 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				411377DA1534AA880047EC41 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		411377CA1534AA880047EC41 = {
+			isa = PBXGroup;
+			children = (
+				411377DB1534AA880047EC41 /* EightQueensAlgo */,
+				411377D81534AA880047EC41 /* Frameworks */,
+				411377D61534AA880047EC41 /* Products */,
+				418E4C04153E8DF800B46FFD /* Distinct Solutions.txt */,
+			);
+			sourceTree = "<group>";
+		};
+		411377D61534AA880047EC41 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				411377D51534AA880047EC41 /* EightQueensAlgo */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		411377D81534AA880047EC41 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				411377D91534AA880047EC41 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		411377DB1534AA880047EC41 /* EightQueensAlgo */ = {
+			isa = PBXGroup;
+			children = (
+				411377DE1534AA880047EC41 /* Supporting Files */,
+				417FB9AE15351DB600337966 /* Globals.h */,
+				411377E71534AB330047EC41 /* JAS8QueensAlgorithm.h */,
+				411377E81534AB330047EC41 /* JAS8QueensAlgorithm.m */,
+				411377EA1534AB770047EC41 /* JAS8QueensChromosome.h */,
+				411377EB1534AB770047EC41 /* JAS8QueensChromosome.m */,
+				411377ED1534ACEF0047EC41 /* JAS8QueensSolution.h */,
+				411377EE1534ACEF0047EC41 /* JAS8QueensSolution.m */,
+				411377DC1534AA880047EC41 /* main.m */,
+			);
+			path = EightQueensAlgo;
+			sourceTree = "<group>";
+		};
+		411377DE1534AA880047EC41 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				411377DF1534AA880047EC41 /* EightQueensAlgo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		411377D41534AA880047EC41 /* EightQueensAlgo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 411377E41534AA880047EC41 /* Build configuration list for PBXNativeTarget "EightQueensAlgo" */;
+			buildPhases = (
+				411377D11534AA880047EC41 /* Sources */,
+				411377D21534AA880047EC41 /* Frameworks */,
+				411377D31534AA880047EC41 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EightQueensAlgo;
+			productName = EightQueensAlgo;
+			productReference = 411377D51534AA880047EC41 /* EightQueensAlgo */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		411377CC1534AA880047EC41 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = JAS;
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = iJoshSmith;
+			};
+			buildConfigurationList = 411377CF1534AA880047EC41 /* Build configuration list for PBXProject "EightQueensAlgo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 411377CA1534AA880047EC41;
+			productRefGroup = 411377D61534AA880047EC41 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				411377D41534AA880047EC41 /* EightQueensAlgo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		411377D11534AA880047EC41 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				411377DD1534AA880047EC41 /* main.m in Sources */,
+				411377E91534AB330047EC41 /* JAS8QueensAlgorithm.m in Sources */,
+				411377EC1534AB770047EC41 /* JAS8QueensChromosome.m in Sources */,
+				411377EF1534ACEF0047EC41 /* JAS8QueensSolution.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		411377E21534AA880047EC41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		411377E31534AA880047EC41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		411377E51534AA880047EC41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EightQueensAlgo/EightQueensAlgo-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		411377E61534AA880047EC41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EightQueensAlgo/EightQueensAlgo-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		411377CF1534AA880047EC41 /* Build configuration list for PBXProject "EightQueensAlgo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				411377E21534AA880047EC41 /* Debug */,
+				411377E31534AA880047EC41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		411377E41534AA880047EC41 /* Build configuration list for PBXNativeTarget "EightQueensAlgo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				411377E51534AA880047EC41 /* Debug */,
+				411377E61534AA880047EC41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 411377CC1534AA880047EC41 /* Project object */;
+}
